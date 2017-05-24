@@ -1,0 +1,19 @@
+{
+  "name": "router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "watch": "gulp watch",
+    "build": "gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.7.12",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-cache": "^0.4.1",
+    "run-sequence": "^1.1.2"
+  }
+}
