@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
   for (var i = 0; i < links.length; i++) {
     links[i].onclick = function(e) {
       e.preventDefault();
-      var href = this.getAttribute('href');
+      var href = this.getAttribute('href') || this.getAttribute('to');
 
       getContent(href, true);
     }
